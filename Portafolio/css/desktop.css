@@ -1,0 +1,268 @@
+@media screen and (min-width:320px) {
+  body {
+  }
+  header{
+    background-color: black;
+    height: 50px;
+  }
+  .logo h1{
+      left: 50px;
+      margin: 2px;
+      position: absolute;
+  }
+  .logo {
+    top: 5px;
+    position: absolute;
+   }
+  #burger{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display:block;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    left:85vw;
+    position:absolute;
+    z-index: 4;
+  }
+  .menu{
+    position: fixed;
+    background-color: black;
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    bottom: 0;
+    top: 0;
+    left: 100vw;
+  }
+  .menu.is-active{
+    left: 0;
+  }
+  .menu ul{
+    display: block;
+    padding: 0;
+    }
+  .menu ul a{
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width:480px) {
+  body {
+  }
+  header{
+    background-color: black;
+    height: 50px;
+  }
+  .logo h1{
+      left: 50px;
+      margin: 2px;
+      position: absolute;
+  }
+  .logo {
+    top: 5px;
+    position: absolute;
+   }
+  #burger{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display:block;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    left:85vw;
+    position:absolute;
+    z-index: 4;
+  }
+  .menu{
+    position: fixed;
+    background-color: black;
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    bottom: 0;
+    top: 0;
+    left: 100vw;
+  }
+  .menu.is-active{
+    left: 0;
+  }
+  .menu ul{
+    display: block;
+    padding: 0;
+    }
+  .menu ul a{
+    text-align: center;
+  }
+  .title{
+    font-size: 30px;
+  }
+  .my-name {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width:767px) {
+  header {
+    background-color: black;
+    display: flex;
+    margin: 0;
+    height: 65px;
+    }
+
+  #burger{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display:none;
+    line-height: 40px;
+    text-align: center;
+    left: 80vw;
+    top: 5px;
+    position:fixed;
+    z-index: 4;
+  }
+  .menu {
+    left: 43vw;
+    background: none;
+    width: inherit;
+    position: absolute;
+    height: inherit;
+  }
+  .logo {
+    top: 10px;
+  }
+  .menu  ul  {
+    display: flex;
+  }
+  #box-1{
+    background-color: #0099ff;
+    padding: 40px;
+  }
+  .title{
+    font-size: 69px;
+    color
+  }
+  .content_knowledge{
+    display: flex;
+    justify-content: center;
+  }
+  .details-knoweldge{
+    margin: 0 40px;
+    }
+    .details-adobe{
+      margin: 0 40px;
+    }
+    .details-knoweldge p{
+      margin-left: 0;
+    }
+    .details-adobe p{
+      margin-left: 0;
+    }
+    .languajes{
+      display: flex;
+      justify-content: center;
+    }
+    .spanish{
+      margin: 0 40px;
+    }
+    .english{
+      margin: 0 40px;
+    }
+    .spanish p{
+      margin-left: 0;
+    }
+    .english p{
+      margin-left: 0;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) {
+  header {
+    background-color: black;
+    display: flex;
+    margin: 0;
+    height: 65px;
+    }
+
+  #burger{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display:none;
+    line-height: 40px;
+    text-align: center;
+    left: 80vw;
+    top: 5px;
+    position:fixed;
+    z-index: 4;
+  }
+  .menu {
+    left: 57vw;
+    background: none;
+    width: inherit;
+    position: absolute;
+    height: inherit;
+  }
+  .logo {
+    top: 10px;
+  }
+  .menu  ul  {
+    display: flex;
+  }
+  #box-1{
+    background-color: #0099ff;
+    padding: 40px;
+  }
+  .title{
+    font-size: 30px;
+    color
+  }
+  .content_knowledge{
+    display: flex;
+    justify-content: center;
+  }
+  .details-knoweldge{
+    margin: 0 40px;
+    }
+    .details-adobe{
+      margin: 0 40px;
+    }
+    .details-knoweldge p{
+      margin-left: 0;
+    }
+    .details-adobe p{
+      margin-left: 0;
+    }
+    .languajes{
+      display: flex;
+      justify-content: center;
+    }
+    .spanish{
+      margin: 0 40px;
+    }
+    .english{
+      margin: 0 40px;
+    }
+    .spanish p{
+      margin-left: 0;
+    }
+    .english p{
+      margin-left: 0;
+    }
+
+
+
+}

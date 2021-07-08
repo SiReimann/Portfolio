@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #00264c;
+  font-family: Roboto, monospace;
+  font-size: 72.2%;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 320px;
+  text-align: center;
+  color: white;
+  }
+header img  {
+  margin-top: 10px;
+  width: 150px;
+  align-self: center;
+}
+.header--title-container{
+  width: 100%;
+  min-width: 288px;
+  max-width: 900px;
+  align-self: center;
+  text-align: center;
+}
+.header--title-container ul li{
+  list-style: none;
+}
+button{
+  border-radius: 50px;
+  height: 33px;
+  border: none;
+  width: 50%;
+  margin: 20px;
+  background-color: #000527;
+  color: #fff;
+  font-weight:bold;
+  text-decoration: none;
+}
+.header--title-container h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.header--title-container h3{
+  margin-top: 15px;
+}
+main{
+  min-width: 288px;
+  max-width: 800px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#main--knowledge {
+ height: 100vh;
+  display: flex;
+  color: white;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main--knowledge-development h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.main--knowledge-programs h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.main--knowledge-idioms h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.main--knowledge-mkt h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.main--knowledge-development p{
+  font-size: 14px;
+  font-weight: 600;
+}
+.main--knowledge-programs p{
+  font-size: 14px;
+  font-weight: 600;
+}
+.main--knowledge-mkt p{
+  font-size: 14px;
+  font-weight: 600;
+}
+.main--knowledge-idioms p{
+  font-size: 14px;
+  font-weight: 600;
+}
+.level {
+  border: gray 1px solid;
+  width: 250px;
+}
+.inside-level-d1 {
+  width: 230px;
+  height: 12px;
+  background-color: #0099ff;
+}
+.inside-level-d2 {
+  width: 200px;
+  height: 12px;
+  background-color: #0099ff;
+}
+.inside-level-d3 {
+  width: 120px;
+  height: 12px;
+  background-color: #0099ff;
+}
+.inside-level-g1 {
+  width: 230px;
+  height: 12px;
+  background-color: #0099ff;
+}
+.inside-level-g2 {
+  width: 200px;
+  height: 12px;
+  background-color: #0099ff;
+}
+.inside-level-g3 {
+  width: 150px;
+  height: 12px;
+  background-color: #0099ff;
+}
+.inside-level-g4 {
+  width: 200px;
+  height: 12px;
+  background-color: #0099ff;
+}
+.knoweldge-languajes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.inside-level-l1 {
+  width: 250px;
+  height: 12px;
+  background-color: #0099ff;
+}
+.inside-level-l2 {
+  width: 120px;
+  height: 12px;
+  background-color: #0099ff;
+}
+#main--academic{
+  padding-bottom: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  padding-top: 15px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.main--academic-a a{
+  margin: 20px;
+  background-color: white;
+  color: #000;
+  font-weight:bold;
+  padding: 10px;
+  text-decoration: none;
+  display: flex; 
+}
+#main--projects {
+  height: 100vh;
+   display: flex;
+   position: relative;
+   width: 100%;
+   flex-wrap: wrap;
+   color: white;
+   justify-content: center;
+ }
+ 
+footer {
+  width: 100%;
+  min-width: 288px;
+  height: 100vh;
+  text-align: center;
+}
+.footer--social{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social-link {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin: 10px 40px;
+}
+.social-link.linkedin {
+  background-image: url(../images/linkedin.svg);
+  background-size: 50px 50px;
+}
+.social-link.github {
+  background-image: url(../images/github.svg);
+  background-size: 50px 50px;
+}
